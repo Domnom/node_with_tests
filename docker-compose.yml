@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+    CLIENT:
+        build: ./express
+        container_name: My container name
+        environment:
+            NODE_ENV: development
+            PORT: 1000
+        ports:
+            - 1000:1000
+        volumes: 
+            - ./express:/usr/src/app
+
+
+    # SERVER:
