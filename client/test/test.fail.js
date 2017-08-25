@@ -18,14 +18,14 @@ describe("Bad - Helpful service", function() {
 
  		var intTotal = helpfulSevice.add(1, 20);
 
- 		expect(intTotal).to.equal(23);
+ 		expect(intTotal).to.equal(21);
  	});
 
  	it ('subtract -> Subtract some numbers', function() {
 
  		var intTotal = helpfulSevice.subtract(5, 3);
 
- 		expect(intTotal).to.equal(10);
+ 		expect(intTotal).to.equal(2);
  	
  	});
 
