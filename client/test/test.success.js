@@ -6,7 +6,7 @@ var should = chai.should(),
 
 var HelpfulService = require('../services/Helpful.service');
 
- describe("Good - Helpful service", function() {
+describe("Good - Helpful service", function() {
 
  	var helpfulSevice;
 
