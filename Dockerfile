@@ -7,7 +7,8 @@ WORKDIR /usr/src/app
 RUN git clone https://github.com/Domnom/node_with_tests my_app
 WORKDIR /usr/src/app/my_app/client
 
-RUN npm install
+RUN npm install && \
+	npm install -g mocha
 
 EXPOSE 80
 
