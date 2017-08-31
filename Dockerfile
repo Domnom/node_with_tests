@@ -11,4 +11,4 @@ RUN npm install -g mocha
 
 EXPOSE 80
 
-CMD ["node", "./client/bin/www"]
+CMD ["node", "./bin/www"]
